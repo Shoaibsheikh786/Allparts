@@ -21,7 +21,6 @@ public class SettingBrowser {
 			browserInfoFile = new FileReader(
 					System.getProperty("user.dir")+"\\src\\test\\resources\\configFiles\\config.properties");
 			PropBrFile.load(browserInfoFile);
-			System.out.println("This is getting called");
 
 		} 
 		if (PropBrFile.getProperty("browser").equalsIgnoreCase("chrome")) {
