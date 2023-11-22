@@ -1,11 +1,14 @@
+package testCases;
 import org.testng.annotations.Test;
 
 import base.SettingBrowser;
 import pageObjects.Search;
+import utilities.CommonMethods;
 
-public class testCases extends SettingBrowser {
+public class SearchTest extends SettingBrowser {
 	
 	Search search;
+	CommonMethods com=new CommonMethods();
 	@Test(priority=1)
 	public void searchItemsWithKeyword()
 	{
@@ -20,7 +23,7 @@ public class testCases extends SettingBrowser {
 		search=new Search(driver);
 		search.enterdata("699387");
 		search.clickOnSearch();
-		search.verifyTheTitle("Search results for: '699387'");
+		com.verifyTitle("Search results for: '699387'", driver);
 	}
 	@Test(priority=2)
 	public void searchButtonIsDisabledWhenWeDontEnterAnyValue()

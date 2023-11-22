@@ -14,12 +14,16 @@ public class Search {
 		PageFactory.initElements(d,this);
 	}
 	
+	
+	/** Search Functionality WebElements */
 	@FindBy(xpath="//div[@class='nav']//input[@id='search']")
 	WebElement inputSearch;
 	
 	@FindBy(xpath="//button[@id='homeSearchbtn']")
 	WebElement searchButton;
 	
+	
+/** Testing the Search functionality  ************/
 	public void enterdata(String data)
 	{
 	   inputSearch.sendKeys(data);
