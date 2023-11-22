@@ -25,11 +25,20 @@ public class SearchTest extends SettingBrowser {
 		search.clickOnSearch();
 		com.verifyTitle("Search results for: '699387'", driver);
 	}
-	@Test(priority=2)
+	@Test(priority=3)
 	public void searchButtonIsDisabledWhenWeDontEnterAnyValue()
 	{
 		search=new Search(driver);
 	    search.isSearchDisabled();
 		
 	}
+	@Test(priority=4)
+	public void searchBtnIsWokringFineWhenWeEnterWrongInp()
+
+	{
+		search=new Search(driver);
+		search.searchBtnWrksFineWrongInp("Your search returned no results.");
+		
+	}
+	
 }

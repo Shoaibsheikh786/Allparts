@@ -6,8 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utilities.CommonMethods;
+
 public class Search {
 	WebDriver driver;
+	CommonMethods com=new CommonMethods();
 	public Search(WebDriver d)
 	{   
 		driver=d;
@@ -15,7 +18,7 @@ public class Search {
 	}
 	
 	
-	/** Search Functionality WebElements */
+	/** Search Functionality WebElements ******/
 	@FindBy(xpath="//div[@class='nav']//input[@id='search']")
 	WebElement inputSearch;
 	
@@ -41,6 +44,14 @@ public class Search {
 	{
 		
 		Assert.assertEquals(false,searchButton.isEnabled());
+	}
+	
+	public void searchBtnWrksFineWrongInp(String wInput)
+	{
+	   inputSearch.sendKeys(wInput);
+	   searchButton.click();
+	   com.contains(wInput, driver);
+	   
 	}
 	
 	

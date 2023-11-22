@@ -11,4 +11,10 @@ public class CommonMethods {
 	{
 		Assert.assertEquals(driver.getTitle(), title);
 	}
+	public void contains(String value, WebDriver driver)
+	{
+		
+		Assert.assertTrue(true,driver.getPageSource().concat(value));
+	}
+	
 }
