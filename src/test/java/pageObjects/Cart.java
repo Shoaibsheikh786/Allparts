@@ -33,7 +33,7 @@ public class Cart{
 	@FindBy(xpath = "//input[@id='qty']")
     WebElement quantityInput;
 	
-	@FindBy(xpath = "//a[@aria-label='Mini Cart']")
+	@FindBy(xpath = "//a[@aria-label='Mini Cart']//span[@class='counter qty']")
     WebElement cartLogo;
 	@FindBy(xpath = "//a[@class='action delete']")
     WebElement delete;
@@ -63,10 +63,9 @@ public class Cart{
 	
 	public void checkProductDeletion() throws InterruptedException
 	{
-		
+		Thread.sleep(1000);
 		 cart.click();
 	        wait.until(ExpectedConditions.elementToBeClickable(cartLogo)).click();
-	        Thread.sleep(2000);
 	        wait.until(ExpectedConditions.elementToBeClickable(delete)).click();
 	        wait.until(ExpectedConditions.elementToBeClickable(ok)).click();
 		
