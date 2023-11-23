@@ -5,6 +5,7 @@
 	<groupId>allparts.com</groupId>
 	<artifactId>AllParts</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<packaging>jar</packaging>
 
 	<name>AllureReporting</name>
@@ -53,6 +54,7 @@
 
 		</plugins>
 	</build>
+
 
 
 	<dependencies>
@@ -150,6 +152,7 @@
 			<version>4.4</version>
 		</dependency>
 
+
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-testng</artifactId>
@@ -161,5 +164,8 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.9.2</version>
 		</dependency>
+		
+
+
 	</dependencies>
 </project>

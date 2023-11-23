@@ -1,25 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-22T15:50:13 IST" name="Default suite" finished-at="2023-11-22T15:50:32 IST" duration-ms="18875">
+  <suite started-at="2023-11-23T15:49:53 IST" name="Suite" finished-at="2023-11-23T15:53:14 IST" duration-ms="201030">
     <groups>
     </groups>
-    <test started-at="2023-11-22T15:50:13 IST" name="Default test" finished-at="2023-11-22T15:50:32 IST" duration-ms="18875">
-      <class name="testCases.NavBarButtons">
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.NavBarButtons@ec2bf82]" started-at="2023-11-22T15:50:13 IST" name="setUpBrowser" finished-at="2023-11-22T15:50:25 IST" duration-ms="12646" status="PASS">
+    <test started-at="2023-11-23T15:49:53 IST" name="Test" finished-at="2023-11-23T15:53:14 IST" duration-ms="201030">
+      <class name="testCases.NavBarButtonsTest">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:50:52 IST" name="setUpBrowser" finished-at="2023-11-23T15:51:00 IST" duration-ms="8339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="checkhomebutton()[pri:100, instance:testCases.NavBarButtons@ec2bf82]" started-at="2023-11-22T15:50:26 IST" name="checkhomebutton" finished-at="2023-11-22T15:50:29 IST" duration-ms="3157" status="PASS">
+        <test-method signature="checkhomebutton()[pri:100, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:00 IST" name="checkhomebutton" finished-at="2023-11-23T15:51:03 IST" duration-ms="2788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkhomebutton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.NavBarButtons@ec2bf82]" started-at="2023-11-22T15:50:29 IST" name="tearDown" finished-at="2023-11-22T15:50:32 IST" duration-ms="2742" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:03 IST" name="tearDown" finished-at="2023-11-23T15:51:06 IST" duration-ms="2530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.NavBarButtons -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:06 IST" name="setUpBrowser" finished-at="2023-11-23T15:51:12 IST" duration-ms="6274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkAboutButton()[pri:101, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:12 IST" name="checkAboutButton" finished-at="2023-11-23T15:51:15 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAboutButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:15 IST" name="tearDown" finished-at="2023-11-23T15:51:17 IST" duration-ms="2353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:17 IST" name="setUpBrowser" finished-at="2023-11-23T15:51:26 IST" duration-ms="8942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkBlog()[pri:102, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:26 IST" name="checkBlog" finished-at="2023-11-23T15:51:30 IST" duration-ms="3316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBlog -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:30 IST" name="tearDown" finished-at="2023-11-23T15:51:32 IST" duration-ms="2537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:32 IST" name="setUpBrowser" finished-at="2023-11-23T15:51:40 IST" duration-ms="7532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkContact()[pri:103, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:40 IST" name="checkContact" finished-at="2023-11-23T15:51:42 IST" duration-ms="2551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:42 IST" name="tearDown" finished-at="2023-11-23T15:51:45 IST" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:45 IST" name="setUpBrowser" finished-at="2023-11-23T15:51:53 IST" duration-ms="7890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkShippingST()[pri:104, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:53 IST" name="checkShippingST" finished-at="2023-11-23T15:51:56 IST" duration-ms="3295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkShippingST -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.NavBarButtonsTest@6b649efa]" started-at="2023-11-23T15:51:56 IST" name="tearDown" finished-at="2023-11-23T15:51:59 IST" duration-ms="2565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.NavBarButtonsTest -->
+      <class name="testCases.SearchTest">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:49:53 IST" name="setUpBrowser" finished-at="2023-11-23T15:50:06 IST" duration-ms="12359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchItemsWithKeyword()[pri:1, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:06 IST" name="searchItemsWithKeyword" description="Search button is working properly when we enter product name" finished-at="2023-11-23T15:50:11 IST" duration-ms="5088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemsWithKeyword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:11 IST" name="tearDown" finished-at="2023-11-23T15:50:14 IST" duration-ms="2930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:14 IST" name="setUpBrowser" finished-at="2023-11-23T15:50:22 IST" duration-ms="7570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchItemsWithKeyNumbers()[pri:2, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:22 IST" name="searchItemsWithKeyNumbers" description="Search items with unique numbers" finished-at="2023-11-23T15:50:25 IST" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemsWithKeyNumbers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:25 IST" name="tearDown" finished-at="2023-11-23T15:50:28 IST" duration-ms="2625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:28 IST" name="setUpBrowser" finished-at="2023-11-23T15:50:35 IST" duration-ms="7003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchButtonIsDisabledWhenWeDontEnterAnyValue()[pri:3, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:35 IST" name="searchButtonIsDisabledWhenWeDontEnterAnyValue" description="Search button is disabled when we dont enter any data" finished-at="2023-11-23T15:50:35 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButtonIsDisabledWhenWeDontEnterAnyValue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:35 IST" name="tearDown" finished-at="2023-11-23T15:50:37 IST" duration-ms="2149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:37 IST" name="setUpBrowser" finished-at="2023-11-23T15:50:45 IST" duration-ms="7653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchBtnIsWokringFineWhenWeEnterWrongInp()[pri:4, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:45 IST" name="searchBtnIsWokringFineWhenWeEnterWrongInp" description="Search button is working fine when we enter wrong input" finished-at="2023-11-23T15:50:50 IST" duration-ms="4872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBtnIsWokringFineWhenWeEnterWrongInp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SearchTest@4d09cade]" started-at="2023-11-23T15:50:50 IST" name="tearDown" finished-at="2023-11-23T15:50:52 IST" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SearchTest -->
+      <class name="testCases.CartTestCases">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:51:59 IST" name="setUpBrowser" finished-at="2023-11-23T15:52:05 IST" duration-ms="6010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:05 IST" name="setup" finished-at="2023-11-23T15:52:05 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Quantity()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:05 IST" name="Quantity" finished-at="2023-11-23T15:52:07 IST" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quantity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:07 IST" name="tearDown" finished-at="2023-11-23T15:52:10 IST" duration-ms="3101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:10 IST" name="setUpBrowser" finished-at="2023-11-23T15:52:20 IST" duration-ms="10100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:20 IST" name="setup" finished-at="2023-11-23T15:52:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cartLogo()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:20 IST" name="cartLogo" finished-at="2023-11-23T15:52:24 IST" duration-ms="4100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:24 IST" name="tearDown" finished-at="2023-11-23T15:52:26 IST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:26 IST" name="setUpBrowser" finished-at="2023-11-23T15:52:35 IST" duration-ms="8927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:35 IST" name="setup" finished-at="2023-11-23T15:52:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cartTest1()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:35 IST" name="cartTest1" finished-at="2023-11-23T15:52:38 IST" duration-ms="3055" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Shopping Cart] but found [AllParts Equipment & Accessories OEM Quality Replacement Parts]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Shopping Cart] but found [AllParts Equipment & Accessories OEM Quality Replacement Parts]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at utilities.CommonMethods.verifyTitle(CommonMethods.java:10)
+at pageObjects.Cart.clickcart(Cart.java:47)
+at testCases.CartTestCases.cartTest1(CartTestCases.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:39 IST" name="tearDown" finished-at="2023-11-23T15:52:42 IST" duration-ms="3104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:42 IST" name="setUpBrowser" finished-at="2023-11-23T15:52:48 IST" duration-ms="6259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:48 IST" name="setup" finished-at="2023-11-23T15:52:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkProductDeletion()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:52:48 IST" name="checkProductDeletion" finished-at="2023-11-23T15:53:12 IST" duration-ms="24091" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@aria-label='Mini Cart']//span[@class='counter qty']' (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@aria-label='Mini Cart']//span[@class='counter qty']' (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at pageObjects.Cart.checkProductDeletion(Cart.java:68)
+at testCases.CartTestCases.checkProductDeletion(CartTestCases.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@aria-label='Mini Cart']//span[@class='counter qty']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a54ae4fa-60cc-4827-a3b7-50eec98dadd9, findElement {using=xpath, value=//a[@aria-label='Mini Cart']//span[@class='counter qty']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0, moz:accessibilityChecks: false, moz:buildID: 20231116134553, moz:debuggerAddress: 127.0.0.1:34228, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20916, moz:profile: C:\Users\Hustler\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34228/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a54ae4fa-60cc-4827-a3b7-50eec98dadd9
+at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProductDeletion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CartTestCases@65ef48f2]" started-at="2023-11-23T15:53:12 IST" name="tearDown" finished-at="2023-11-23T15:53:14 IST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CartTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

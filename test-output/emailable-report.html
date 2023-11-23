@@ -8,11 +8,64 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">18,875</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">201,030</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.NavBarButtons</td><td><a href="#m0">checkhomebutton</a></td><td rowspan="1">1700648426128</td><td rowspan="1">3157</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testCases.CartTestCases</td><td><a href="#m0">cartTest1</a></td><td rowspan="1">1700734955658</td><td rowspan="1">3055</td></tr><tr class="failedeven"><td><a href="#m1">checkProductDeletion</a></td><td rowspan="1">1700734968579</td><td rowspan="1">24091</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testCases.CartTestCases</td><td><a href="#m2">Quantity</a></td><td rowspan="1">1700734925219</td><td rowspan="1">1986</td></tr><tr class="passedeven"><td><a href="#m3">cartLogo</a></td><td rowspan="1">1700734940428</td><td rowspan="1">4100</td></tr><tr class="passedodd"><td rowspan="5">testCases.NavBarButtonsTest</td><td><a href="#m4">checkAboutButton</a></td><td rowspan="1">1700734872425</td><td rowspan="1">2989</td></tr><tr class="passedodd"><td><a href="#m5">checkBlog</a></td><td rowspan="1">1700734886719</td><td rowspan="1">3316</td></tr><tr class="passedodd"><td><a href="#m6">checkContact</a></td><td rowspan="1">1700734900117</td><td rowspan="1">2551</td></tr><tr class="passedodd"><td><a href="#m7">checkShippingST</a></td><td rowspan="1">1700734913298</td><td rowspan="1">3295</td></tr><tr class="passedodd"><td><a href="#m8">checkhomebutton</a></td><td rowspan="1">1700734860817</td><td rowspan="1">2788</td></tr><tr class="passedeven"><td rowspan="4">testCases.SearchTest</td><td><a href="#m9">searchBtnIsWokringFineWhenWeEnterWrongInp</a></td><td rowspan="1">1700734845184</td><td rowspan="1">4872</td></tr><tr class="passedeven"><td><a href="#m10">searchButtonIsDisabledWhenWeDontEnterAnyValue</a></td><td rowspan="1">1700734835278</td><td rowspan="1">91</td></tr><tr class="passedeven"><td><a href="#m11">searchItemsWithKeyNumbers</a></td><td rowspan="1">1700734822374</td><td rowspan="1">3263</td></tr><tr class="passedeven"><td><a href="#m12">searchItemsWithKeyword</a></td><td rowspan="1">1700734806750</td><td rowspan="1">5088</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">testCases.NavBarButtons#checkhomebutton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">testCases.CartTestCases#cartTest1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Shopping Cart] but found [AllParts Equipment &amp; Accessories OEM Quality Replacement Parts]
+	at utilities.CommonMethods.verifyTitle(CommonMethods.java:10)
+	at pageObjects.Cart.clickcart(Cart.java:47)
+	at testCases.CartTestCases.cartTest1(CartTestCases.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.CartTestCases#checkProductDeletion</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //a[@aria-label=&apos;Mini Cart&apos;]//span[@class=&apos;counter qty&apos;]&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pageObjects.Cart.checkProductDeletion(Cart.java:68)
+	at testCases.CartTestCases.checkProductDeletion(CartTestCases.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@aria-label=&apos;Mini Cart&apos;]//span[@class=&apos;counter qty&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a54ae4fa-60cc-4827-a3b7-50eec98dadd9, findElement {using=xpath, value=//a[@aria-label=&apos;Mini Cart&apos;]//span[@class=&apos;counter qty&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0, moz:accessibilityChecks: false, moz:buildID: 20231116134553, moz:debuggerAddress: 127.0.0.1:34228, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20916, moz:profile: C:\Users\Hustler\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34228/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a54ae4fa-60cc-4827-a3b7-50eec98dadd9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 30 more
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.CartTestCases#Quantity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.CartTestCases#cartLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.NavBarButtonsTest#checkAboutButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.NavBarButtonsTest#checkBlog</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.NavBarButtonsTest#checkContact</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.NavBarButtonsTest#checkShippingST</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.NavBarButtonsTest#checkhomebutton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.SearchTest#searchBtnIsWokringFineWhenWeEnterWrongInp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.SearchTest#searchButtonIsDisabledWhenWeDontEnterAnyValue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.SearchTest#searchItemsWithKeyNumbers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testCases.SearchTest#searchItemsWithKeyword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
